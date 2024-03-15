@@ -2,7 +2,7 @@
 
 let input = document.getElementById("searchInput");
  input.addEventListener("input",()=>{
-    deBounce(fetchData, 100);
+    deBounce(fetchData, 1000);
  })
 
 const apiKey = "f7b73d44"; 
