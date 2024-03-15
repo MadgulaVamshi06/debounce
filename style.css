@@ -1,4 +1,4 @@
-/* style1.css */
+
 
 body {
     background-color: #f7f7f7;
@@ -47,9 +47,9 @@ button:hover {
 #movieInfo {
     margin-top: 30px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column size as needed */
-    gap: 20px; /* Add gap between grid items */
-    justify-content: center; /* Center align grid items horizontally */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 20px; 
+    justify-content: center; 
 }
 
 .movie-card {
@@ -64,7 +64,7 @@ button:hover {
 }
 
 .movie-poster {
-    width: 100%; /* Adjust the width as needed */
-    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
     border-radius: 5px;
 }
